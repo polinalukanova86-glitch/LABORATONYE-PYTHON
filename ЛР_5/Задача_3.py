@@ -1,0 +1,6 @@
+s = input()
+print('YES' if 'а' in s.lower() else 'NO')
+print(s.find(' '))
+print(s.rfind(' '))
+print(s.lower())
+print(s.split())
