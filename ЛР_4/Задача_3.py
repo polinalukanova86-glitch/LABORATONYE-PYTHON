@@ -1,0 +1,11 @@
+numbers = list(map(int, input().split()))
+print('YES' if -1 in numbers else 'NO')
+print(max(numbers))
+x = int(input())
+numbers.insert(0, x)
+print(numbers)
+# Удаляем пятый элемент (нумерация начинается с 1).
+numbers.pop(4)
+print(numbers)
+numbers.clear()
+print(numbers)
